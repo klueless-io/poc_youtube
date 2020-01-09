@@ -34,4 +34,7 @@ Layout/LineLength:
   IgnoredPatterns: ['\A# \*\*']
   IgnoreCopDirectives: true
 
+Lint/UnusedMethodArgument:
+  AllowUnusedKeywordArguments: true
+
 inherit_from: .rubocop_todo.yml

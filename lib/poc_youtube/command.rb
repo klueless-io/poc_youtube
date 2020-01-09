@@ -129,7 +129,7 @@ module PocYoutube
     end
 
     # Helpers for Google Auth and API calls
-        def google_credentials
+    def google_credentials
       return @google_credentials if defined? @google_credentials
 
       @google_credentials = begin
